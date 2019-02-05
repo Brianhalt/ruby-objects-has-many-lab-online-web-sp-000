@@ -5,7 +5,6 @@ class Post
   def initialize(title)
     @title = title
     @@all << self
-    # binding.pry
   end
 
   def self.all
@@ -17,7 +16,6 @@ class Post
       return nil
     else
       @author.name
-      # binding.pry
     end
   end
 
