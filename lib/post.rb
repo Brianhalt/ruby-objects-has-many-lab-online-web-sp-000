@@ -8,6 +8,7 @@ class Post
   end
 
   def self.all
+    binding.pry
     return @@all
   end
 
