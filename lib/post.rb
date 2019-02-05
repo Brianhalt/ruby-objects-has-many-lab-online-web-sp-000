@@ -17,7 +17,7 @@ class Post
       return nil
     else
       @author.name
-      binding.pry
+      # binding.pry
     end
   end
 
