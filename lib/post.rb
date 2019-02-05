@@ -10,7 +10,6 @@ class Post
 
   def all
     @@all
-    binding.pry
   end
 
   def author_name
@@ -18,6 +17,7 @@ class Post
       return nil
     else
       @author.name
+      binding.pry
     end
   end
 
