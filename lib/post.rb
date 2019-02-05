@@ -4,11 +4,11 @@ class Post
 
   def initialize(title)
     @title = title
-    @@all << title
+    @@all << self
     # binding.pry
   end
 
-  def all
+  def self.all
     return @@all
   end
 
