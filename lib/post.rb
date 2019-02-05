@@ -8,6 +8,11 @@ class Post
     # binding.pry
   end
 
+  def all
+    @@all
+    binding.pry
+  end
+
   def author_name
     if @author == nil
       return nil
@@ -16,8 +21,5 @@ class Post
     end
   end
 
-  def all
-    @@all
-    binding.pry
-  end
+  
 end
